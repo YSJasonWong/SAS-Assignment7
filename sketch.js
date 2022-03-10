@@ -25,5 +25,8 @@ function generate() {
     result += next;
     current = result.substring(result.length-n, result.length);
   }
-  createP(result);
+  let newPara = createP(result).size(windowWidth, 300);
+  newPara.style('color', 'white');
+  newPara.style('background-color', 'black');
+  newPara.center();
 }
