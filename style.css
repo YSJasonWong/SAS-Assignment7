@@ -3,6 +3,9 @@ html, body {
   margin: 0;
   padding: 0;
 }
+p {
+  padding: 20px;
+}
 canvas {
   display: block;
 }
