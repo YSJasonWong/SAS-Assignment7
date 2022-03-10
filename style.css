@@ -6,6 +6,11 @@ html, body {
 p {
   padding: 20px;
 }
+div {
+  display:flex;
+  justify-content: center;
+  max-width: 970px
+}
 canvas {
   display: block;
 }
